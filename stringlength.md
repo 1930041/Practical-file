@@ -7,7 +7,7 @@ void main()
 {  
 char str[20];    
 int len;  
-printf("\nEnter a string of length <= 19");  
+printf("\nEnter a string of length <= 19:  ");  
   
 gets(str);  
 **len=strlen(str);**   
