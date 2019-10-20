@@ -3,7 +3,7 @@
 ##   ROLL NO-*1915081*
 ##   BRANCH-*COMPUTER SCIENCE & ENGINEERING*
 ##   SECTION-*CS(B)*   
-![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg | width=100)
+![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg)
 ## **DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING**
 # **GURU NANAK DEV ENGENEERING COLLEGE, LUDHIANA**
 
