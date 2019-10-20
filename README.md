@@ -5,5 +5,5 @@
 ##   SECTION- *CS(B)*   
 ![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg)
 ## **DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING**
-# **GURU NANAK DEV ENGENEERING COLLEGE, LUDHIANA**
+# **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA**
 
