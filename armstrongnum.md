@@ -11,7 +11,7 @@ while(temp>0)
 {  
 digit=temp%10;  
 temp/=10;  
-sum+=digit*digit*digit;  
+sum+=digit * digit * digit;  
 }  
 if(n==sum)  
 printf("The entered number is an Armstrong number.\n");  
