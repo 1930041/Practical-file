@@ -1,4 +1,4 @@
-#### Program to find the larger of 2 numbers
+//Program to find the larger of 2 numbers
 
 #include<stdio.h>  
 int main()              {  
@@ -17,4 +17,4 @@ printf("a is equal to b.\n");
 return 0;  
 }  
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
