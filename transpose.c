@@ -1,4 +1,4 @@
-#### Program to display the Transpose of an entered matrix
+//Program to display the Transpose of an entered matrix
 
 #include<stdio.h>  
 void main()  
@@ -18,7 +18,7 @@ scanf("%d",&a[i][j]);
 for(i=0;i<m;i++)  
 {  
 for(j=0;j<n;j++)  
-b[j][i]=a[i][j];  
+b[j][i]=a[i][j];    //Switching rows & columns of a matrix to columns & rows of b matrix respectively
 }  
 printf("\nTranspose is\n\n");  
 for(i=0;i<n;i++)  
@@ -30,4 +30,4 @@ printf("%d ",b[i][j]);
 printf("\n\n");  
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
