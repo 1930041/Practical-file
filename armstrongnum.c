@@ -9,9 +9,9 @@ scanf("%d",&n);
 temp=n;  
 while(temp>0)  
 {  
-digit=temp%10;  
-temp/=10;  
-sum+=digit * digit * digit;  
+digit=temp%10;    //Storing one's place
+temp/=10;    //Storing number removing one's place
+sum+=digit * digit * digit;    //Incrementing sum by cubing & adding all digits one-by-one   
 }  
 if(n==sum)  
 printf("The entered number is an Armstrong number.\n");  
