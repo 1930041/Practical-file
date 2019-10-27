@@ -16,9 +16,8 @@ printf("\nValue of x=%d, value of y=%d\n",x,y);
 swap(&x,&y);    //Function call, with addresses of x & y 
   
 printf("\nAfter returning from swap function\n");  
-printf("\nValue of x=%d, value of y=%d\n",x,y);    //Change, due to their addresses being involved
-}  
-  
+printf("\nValue of x=%d, value of y=%d\n",x,y);    //Interchanged, due to their addresses being swapped  
+}
 void swap(int *a,int *b)    //Pointer variables required to point to addresses 
 {    //Function definition
 int temp;  
