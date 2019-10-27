@@ -1,4 +1,4 @@
-#### Program to display resultant matrix after Product of 2 entered matrices, if they can be multiplied
+//Program to display resultant matrix after Product of 2 entered matrices, if they can be multiplied
 
 #include<stdio.h>  
 void main()  
@@ -28,10 +28,10 @@ scanf("%d",&two[i][j]);
 for(i=0;i<m;i++){  
 for(j=0;j<n;j++){  
 for(k=0;k<p;k++){                                                             
-sum+=one[i][k]*two[k][j];  
+sum+=one[i][k]*two[k][j];    //Calculating 1 resultant element
 }  
 product[i][j]=sum;  
-sum=0;  
+sum=0;    //Resetting sum to 0 for next resultant element  
 }                                                                             
 }  
 printf("Product of the matrices\n\n");  
@@ -43,4 +43,4 @@ for(j=0;j<n;j++)
 printf("%d ",product[i][j]);  
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
