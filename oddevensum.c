@@ -1,4 +1,4 @@
-#### Program to calculate the Sum of first 100 Even & Odd integers separately
+//Program to calculate the Sum of first 100 Even & Odd integers separately
 
 #include<stdio.h>  
 int main()              {  
@@ -20,4 +20,4 @@ printf("Sum of odd numbers in first 100 +ve integers = %d\n",osum);
 return 0;  
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
