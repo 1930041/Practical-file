@@ -1,4 +1,4 @@
-#### Program to calculate length of string using strlen() function
+//Program to calculate length of string using strlen() function
   
 #include<stdio.h>  
 #include<string.h>  
@@ -10,9 +10,9 @@ int len;
 printf("\nEnter a string of length <= 19:  ");  
   
 gets(str);  
-**len=strlen(str);**   
+len=strlen(str);    //String function to give integer length of str string
   
 printf("Number of characters in %s = %d\n",str,len);  
 }  
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
