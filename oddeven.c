@@ -1,4 +1,4 @@
-#### Program to check whether entered number is Even or Odd
+//Program to check whether entered number is Even or Odd
 
 #include<stdio.h>  
 int main()              {  
@@ -16,4 +16,4 @@ return 0;
   
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
