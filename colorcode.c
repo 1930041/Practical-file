@@ -1,4 +1,4 @@
-#### Program to display colour name corresponding to the character
+//Program to display colour name corresponding to the character
 
 #include<stdio.h>  
 int main()              {  
@@ -20,4 +20,4 @@ return 0;
   
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
