@@ -1,4 +1,4 @@
-#### Program to display the Sum of first 100 positive integers
+//Program to display the Sum of first 100 positive integers
 
 #include<stdio.h>  
 int main()              {  
@@ -15,4 +15,4 @@ printf("Sum of first 100 +ve integers = %d\n",sum);
 return 0;  
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
