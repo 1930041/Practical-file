@@ -1,4 +1,4 @@
-#### Program to calculate the GCD of 2 integers
+//Program to calculate the GCD of 2 integers
 
 #include<stdio.h>  
 int main()  
@@ -17,4 +17,4 @@ printf("GCD of %d and %d is %d.\n",n1,n2,gcd);
 return 0;  
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
