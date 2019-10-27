@@ -1,4 +1,4 @@
-#### Program to find the GCD of 2 integers, by defining a function
+//Program to find the GCD of 2 integers, by defining a function
 
 #include<stdio.h>  
 int gcd(int a,int b)  
@@ -8,7 +8,7 @@ c=a%b;
 if(c==0)  
 return b;  
 else  
-gcd(b,c);  
+gcd(b,c);    //Function gcd calls itself if b is not the GCD 
 }  
 int main()  
 {  
@@ -20,4 +20,4 @@ printf("\nGCD is %d.\n",c);
 return 0;  
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
