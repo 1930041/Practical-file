@@ -1,4 +1,4 @@
-#### Program to implement Bubblesort
+\\Program to implement Bubblesort
 
 #include<stdio.h>  
 int main()  
@@ -33,4 +33,4 @@ printf("\n");
 return 0;  
 }
 
-*Code written by Tawanjot Singh ;')*
+\\Code written by Tawanjot Singh ;')
