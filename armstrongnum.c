@@ -1,4 +1,4 @@
-\\Program to check whether entered integer is an Armstrong number or not
+//Program to check whether entered integer is an Armstrong number or not
 
 #include<stdio.h>  
 int main()  
@@ -21,4 +21,4 @@ printf("The entered number is not an Armstrong number.\n");
 return 0;  
 }
 
-\\Code written by Tawanjot Singh ;')
+//Code written by Tawanjot Singh ;')
