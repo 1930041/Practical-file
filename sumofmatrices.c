@@ -1,4 +1,4 @@
-#### Program to display resultant matrix after sum of 2 entered matrices
+//Program to display resultant matrix after sum of 2 entered matrices
 
 #include<stdio.h>  
 void main()  
@@ -19,7 +19,7 @@ printf("Enter elements of Matrix B row wise\n\n");
   
 for(i=0;i<m;i++)                                                               
 {  
-for(j=0;j<n;j++)  
+for(j=0;j<n;j++)    //Matrices to be added must have the same order 
 scanf("%f",&m2[i][j]);  
 }  
 printf("The resultant matrix:\n");                                            
@@ -37,4 +37,4 @@ printf("\n\n");
   
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
