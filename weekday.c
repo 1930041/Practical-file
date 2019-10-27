@@ -1,4 +1,4 @@
-#### Program to display the Day of Week corresponding to numeral input, using if-else
+//Program to display the Day of Week corresponding to numeral input, using if-else
 
 #include<stdio.h>  
 int main()              {  
@@ -8,7 +8,7 @@ printf("Enter weekday in number:  ");
 scanf("%d",&n);  
   
 if(n==1)  
-printf("Monday\n");  
+printf("Monday\n");    //Taking the business week 
 else if(n==2)  
 printf("Tuesday\n");  
 else if(n==3)  
@@ -28,4 +28,4 @@ return 0;
   
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
