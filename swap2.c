@@ -1,7 +1,7 @@
-#### Call by Reference demonstration
+//Call by Reference demonstration
 
 #include<stdio.h>  
-**void swap( int * , int * );**  
+void swap( int * , int * );    //Function declaration  
   
 void main()  
 {  
@@ -13,14 +13,14 @@ scanf("%d",&y);
 printf("\nBefore calling swap function\n");  
 printf("\nValue of x=%d, value of y=%d\n",x,y);  
   
-**swap(&x,&y);**  
+swap(&x,&y);    //Function call, with addresses of x & y 
   
 printf("\nAfter returning from swap function\n");  
-printf("\nValue of x=%d, value of y=%d\n",x,y);  
+printf("\nValue of x=%d, value of y=%d\n",x,y);    //Change due to their addresses being involved
 }  
   
-**void swap(int *a,int *b)**  
-**{**  
+void swap(int *a,int *b)    //Pointer variables required to point to addresses 
+{    //Function definition
 int temp;  
 printf("\nInside the function\n");  
 printf("\nValue of *a=%d, value of *b=%d before swap\n",*a,*b);  
@@ -28,6 +28,6 @@ temp=*a;
 *a=*b;  
 *b=temp;  
 printf("\nValue of *a=%d, value of *b=%d after swap\n",*a,*b);  
-**}**
+}
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
