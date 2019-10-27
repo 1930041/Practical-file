@@ -1,4 +1,4 @@
-#### Program to display Table of 2 as per format given
+//Program to display Table of 2 as per format given
 
 #include<stdio.h>  
 int main()              {  
@@ -21,4 +21,4 @@ printf("\nPress any key to continue...\n");
 return 0;  
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
