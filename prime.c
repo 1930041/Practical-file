@@ -7,7 +7,7 @@ int n,i,res=0;
 printf("Enter the number you wish to check:  ");  
 scanf("%d",&n);  
   
-for(i=2;i<=n/2;i++)    //n/2 in test expression to reduce comparisons as each number's factors apart from itself are from 1 to n/2 only
+for(i=2;i<=n/2;i++)    //n/2 in test expression to reduce comparisons as each number's factors apart from itself & 1 are from 2 to n/2 only
 {  
 if(n%i==0)  
 res=1;  
