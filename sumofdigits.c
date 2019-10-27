@@ -1,4 +1,4 @@
-#### Program to find the Sum of digits in any positive integer
+//Program to find the Sum of digits in any positive integer
 
 #include<stdio.h>                                                             
 int main()              {  
@@ -12,9 +12,9 @@ scanf("%ld",&n);
 temp=n;  
 while(temp>0)                                                                 
 {  
-digit=temp%10;  
-temp/=10;  
-sum+=digit;  
+digit=temp%10;    //Stores one's place  
+temp/=10;    //Stores number removing one's place 
+sum+=digit;    //Increments sum digit-by-digit 
 }                                                                             
   
 printf("\n Sum of digits of %d = %d \n",n,sum);  
@@ -22,4 +22,4 @@ printf("\n Sum of digits of %d = %d \n",n,sum);
 return 0;  
 }
 
-*Code written by Tawanjot Singh ;')*
+//Code written by Tawanjot Singh ;')
