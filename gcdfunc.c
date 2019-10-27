@@ -8,7 +8,7 @@ c=a%b;
 if(c==0)  
 return b;  
 else  
-gcd(b,c);    //Function gcd calls itself if b is not the GCD to continue dividing further 
+gcd(b,c);    //Function gcd calls itself if b is not the GCD, to continue dividing further 
 }  
 int main()  
 {  
