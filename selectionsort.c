@@ -14,7 +14,7 @@ scanf("%d",&a[i]);
 for(i=0;i<n-1;i++)
 {
 smaller=i;
-for(j=i+1;j<n;j++)
+for(j=i+1;j<n;j++)    //To start looking for smaller possible number from the next position
 {
 if(a[smaller]>a[j])
 smaller=j;
