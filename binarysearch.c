@@ -22,7 +22,7 @@ if(a[mid]<n)
 first=mid+1;
 else if(a[mid]==n)
 {
-printf("%d found at position #%d.\n",n,mid+1);    //mid+1 done to display location & not the index position 
+printf("%d found at position #%d.\n",n,mid+1);    //mid+1 done to display location & not index position 
 break;
 }
 else
