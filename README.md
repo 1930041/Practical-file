@@ -7,7 +7,7 @@
 ## **DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING**
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA**
 
-11. Fizz Buzz
+#### 11. Fizz Buzz  
 //Program for FizzBuzz game till 30
 
 #include<stdio.h>  
