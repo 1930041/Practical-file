@@ -36,7 +36,7 @@ float sum=0,avg;
 printf("Enter number of elements:  ");  
 scanf("%d",&n);  
 printf("Enter %d elements:  ",n);  
-for(i=0;i<n;i++)  
+for(i=0 ; i<n ; i++)  
 {  
 scanf("%d",&a[i]);  
 sum+=a[i];  
@@ -105,7 +105,7 @@ int n=1,product=2;
 printf("\tTable of 2\n");  
 printf("\t==========\n\n");  
   
-for(; n<=10; n++,product+=2)  
+for(; n<=10 ; n++,product+=2)  
 if(n<=4)    
 printf("  2 x  %d =   %d  2 x  %d =  %d\n", n, product, n+10, product+20);  
 else if(n<=9)  
@@ -167,12 +167,12 @@ scanf("%d",&n);
   
 printf("\nEnter %d elements of array.\n",n);  
   
-for(i=0;i<n;i++)  
+for(i=0 ; i<n ; i++)  
 scanf("%d",&a[i]);  
   
-for(k=0;k<n-1;k++)  
+for(k=0 ; k<n-1 ; k++)  
 {  
-for(i=0;i<n-k-1;i++)  
+for(i=0 ; i<n-k-1 ; i++)  
 {  
 if(a[i]>a[i+1])  
 {  
@@ -183,7 +183,7 @@ a[i+1]=temp;
 }  
 }  
 printf("\nArray elements after sorting..\n");  
-for(i=0;i<n;i++)  
+for(i=0 ; i<n ; i++)  
 printf("%d ",a[i]);  
   
 printf("\n");  
@@ -201,7 +201,7 @@ int a[25],i,m,n,first=0,last,mid;
 printf("Enter the length of array:  ");  
 scanf("%d",&m);  
 printf("Enter %d elements in ascending order:  ",m);  
-for(i=0;i<m;i++)  
+for(i=0 ; i<m ; i++)  
 scanf("%d",&a[i]);  
   
 printf("Enter value to find:  ");  
@@ -239,7 +239,7 @@ int n,i, fac=1;
 printf("Enter number which you want to get factorial of:  ");  
 scanf("%d",&n);  
   
-for(i=n;**i>1**;i--) &nbsp; &nbsp;//i>0 can also be set as test expression, but multiplying with 1 changes nothing  
+for(i=n ; **i>1** ; i--) &nbsp; &nbsp;//i>0 can also be set as test expression, but multiplying with 1 changes nothing  
 fac*=i;  
   
 printf("\n%d! = %d\n",n,fac);  
@@ -252,7 +252,7 @@ return 0;
 #include<stdio.h>  
 int main()              {  
   
-for(int d=1; d<=30; d++)                {  
+for(int d=1 ; d<=30 ; d++)                {  
   
 if(d%3==0 && d%5==0)  
 printf("FizzBuzz\n");  
@@ -322,7 +322,7 @@ else
 largest=c;  
   
 return largest;  
-*}*
+*}*  
 int main()  
 {  
 printf("Enter 3 numbers:  ");  
@@ -342,7 +342,7 @@ int n1,n2,i,gcd;
 printf("Enter 2 integers:  ");  
 scanf("%d %d",&n1,&n2);  
   
-for(i=1;i<=n1 && i<=n2;i++)  
+for(i=1 ; i<=n1 && i<=n2 ; i++)  
 if(n1%i==0 && n2%i==0)  
 gcd=i;  
   
@@ -379,7 +379,7 @@ int a[25],i,m,n,first=0,last,mid;
 printf("Enter the length of array:  ");  
 scanf("%d",&m);  
 printf("Enter %d elements in ascending order:  ",m);  
-for(i=0;i<m;i++)  
+for(i=0 ; i<m ; i++)  
 scanf("%d",&a[i]);  
   
 printf("Enter value to find:  ");  
@@ -420,21 +420,21 @@ scanf("%d%d",&m,&n);
   
 printf("Enter elements of Matrix A row wise\n\n");  
   
-**for(i=0;i<m;i++)**  
+**for(i=0 ; i<m ; i++)**  
 {  
-*for(j=0;j<n;j++)*  
+*for(j=0 ; j<n ; j++)*  
 scanf("%f",&m1[i][j]);  
 }  
 printf("Enter elements of Matrix B row wise\n\n");  
   
-**for(i=0;i<m;i++)**                                                               
+**for(i=0 ; i<m ; i++)**                                                               
 {  
-*for(j=0;j<n;j++)* &nbsp; &nbsp;//Matrices to be added must have the same order     
+*for(j=0 ; j<n ; j++)* &nbsp; &nbsp;//Matrices to be added must have the same order     
 scanf("%f",&m2[i][j]);  
 }  
 printf("The resultant matrix:\n");                                            
   
-for(i=0;i<m;i++)  
+for(i=0 ; i<m ; i++)  
 {  
 printf("\n");  
 for(j=0;j<n;j++)                                                              
@@ -458,22 +458,22 @@ printf("Enter size of Matrix A as m,n:  ");
 scanf("%d%d",&m,&n);  
 printf("\nEnter  elements of Matrix A row wise\n");  
   
-for(i=0;i<m;i++)  
+for(i=0 ; i<m ; i++)  
 {  
-for(j=0;j<n;j++)  
+for(j=0 ; j<n ; j++)  
 scanf("%d",&a[i][j]);  
 }  
   
-for(i=0;i<m;i++)  
+for(i=0 ; i<m ; i++)  
 {  
-for(j=0;j<n;j++)  
+for(j=0 ; j<n ; j++)  
 **b[j][i]=a[i][j];** &nbsp; &nbsp;//Switching rows & columns of 'a' matrix to columns & rows of 'b' matrix respectively  
 }   
 printf("\nTranspose is\n\n");  
-for(i=0;i<n;i++)  
+for(i=0 ; i<n ; i++)  
 {  
 printf("\n");  
-for(j=0;j<m;j++)  
+for(j=0 ; j<m ; j++)  
 printf("%d ",b[i][j]);  
 }  
 printf("\n\n");  
@@ -555,9 +555,9 @@ printf("\n Value of x = %d, value of y = %d\n",x,y); &nbsp; &nbsp;//No change as
 int temp;  
 printf("\n Inside the function\n");  
 printf("\n Value of a = %d, value of b = %d before swap\n",a,b);  
-temp=a;  
-a=b;  
-b=temp;  
+temp = a;  
+a = b;  
+b = temp;  
 printf("\n Value of a = %d, value of b = %d after swap\n",a,b);  
 *}*  
   
@@ -576,19 +576,19 @@ scanf("%d",&y);
 printf("\nBefore calling swap function\n");  
 printf("\nValue of x=%d, value of y=%d\n",x,y);  
   
-swap(&x,&y); &nbsp; &nbsp;//Function call, with addresses of x & y 
+**swap(&x,&y);** &nbsp; &nbsp;//Function call, with addresses of x & y 
   
 printf("\nAfter returning from swap function\n");  
 printf("\nValue of x=%d, value of y=%d\n",x,y); &nbsp; &nbsp;//Interchanged, due to their addresses being swapped    
 }  
-**void swap(int *a,int *b)** &nbsp; &nbsp;//Pointer variables required to point to addresses 
-*{* &nbsp; &nbsp;//Function definition
+**void swap(int *a,int *b)** &nbsp; &nbsp;//Pointer variables required to point to addresses   
+*{* &nbsp; &nbsp;//Function definition  
 int temp;  
 printf("\nInside the function\n");  
 printf("\nValue of *a=%d, value of *b=%d before swap\n",*a,*b);  
-temp=*a;  
-*a=*b;  
-*b=temp;  
+temp = *a;  
+*a = *b;  
+*b = temp;  
 printf("\nValue of *a=%d, value of *b=%d after swap\n",*a,*b);  
 *}*  
   
@@ -640,8 +640,8 @@ scanf("%f/%f",&f1.num,&f1.denom);
 printf("Enter numerator,denominator of 2nd fraction:  ");  
 scanf("%f/%f",&f2.num,&f2.denom);  
   
-res.num=f1.num*f2.num;  
-res.denom=f1.denom*f2.denom;  
+res.num=f1.num * f2.num;  
+res.denom=f1.denom * f2.denom;  
   
 printf("The resultant product fraction is %.2f/%.2f.\n",res.num,res.denom);  
   
