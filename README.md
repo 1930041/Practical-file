@@ -547,7 +547,7 @@ printf("\n Value of x = %d, value of y = %d\n",x,y);
 **swap(x,y);** &nbsp; &nbsp;//Function call, with only values of x & y
   
 printf("\n After returning from swap function");  
-printf("\n Value of x = %d, value of y = %d\n",x,y); &nbsp; &nbsp;//No change as addresses of x & y were not involved 
+printf("\n Value of x = %d, value of y = %d\n",x,y); &nbsp; &nbsp;//No change as addresses of x & y were not involved   
 }  
 
 **void swap(int a,int b)** 
