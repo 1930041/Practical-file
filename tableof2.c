@@ -16,8 +16,6 @@ printf("  2 x  %d =  %d  2 x  %d =  %d\n", n, product, n+10, product+20);
 else   
 printf("  2 x %d =  %d  2 x  %d =  %d\n", n, product, n+10, product+20);  
   
-printf("\nPress any key to continue...\n");  
-  
 return 0;  
 }
 
