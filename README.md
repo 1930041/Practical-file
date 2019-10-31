@@ -8,7 +8,7 @@
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA**  
   
   
-## CODE SECTION
+## CODE
 
 #### 1. WAP to Add two numbers.  
   
