@@ -581,7 +581,7 @@ printf("\nValue of x=%d, value of y=%d\n",x,y);
 printf("\nAfter returning from swap function\n");  
 printf("\nValue of x=%d, value of y=%d\n",x,y); &nbsp; &nbsp;//Interchanged, due to their addresses being swapped    
 }  
-**void swap(int *a,int *b)** &nbsp; &nbsp;//Pointer variables required to point to addresses   
+**void swap( int * a , int * b )** &nbsp; &nbsp;//Pointer variables required to point to addresses   
 *{* &nbsp; &nbsp;//Function definition  
 int temp;  
 printf("\nInside the function\n");  
