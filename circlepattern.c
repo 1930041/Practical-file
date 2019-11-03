@@ -10,7 +10,7 @@ scanf("%d",&r);
 
 d=2*r+1;    //+1 for including centre
 char a[d][d];
-x=r,y=r;    
+x=r,y=r;    //Co-ordinates of Centre    
 
 for(i=0;i<d;i++)
 for(j=0;j<d;j++)
