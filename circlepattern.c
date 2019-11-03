@@ -1,3 +1,5 @@
+//Program to display Circle pattern by accepting radius
+
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -35,3 +37,5 @@ printf("\n\n");
 
 return 0;
 }
+
+//Code written by Tawanjot Singh ;')
