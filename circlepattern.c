@@ -22,7 +22,7 @@ for(i=0;i<d;i++){
 for(j=0;j<d;j++){
 
 dist=sqrt(pow(x-i,2)+pow(y-j,2));
-if(dist>=r-0.5 && dist<=r+0.5)    //dist needs to be approximately equal to r
+if(dist>=r-0.5 && dist<=r+0.5)    //dist needs to be only approximately equal to r
 a[i][j]='#';                                                                
 }
 }
