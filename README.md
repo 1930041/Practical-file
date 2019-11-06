@@ -414,31 +414,31 @@ return 0;
 #include<stdio.h>  
 void main()  
 {  
-int m,n,i,j;  
-float m1[10][10],m2[10][10],m3[10][10];  
+int m, n, i, j;  
+float m1[10][10], m2[10][10], m3[10][10];  
 printf("Enter size of Matrix A & B as m,n:  ");  
 scanf("%d%d",&m,&n);  
   
 printf("Enter elements of Matrix A row wise\n\n");  
   
-**for(i=0 ; i<m ; i++)**  
+**for( i=0 ; i<m ; i++ )**  
 {  
-*for(j=0 ; j<n ; j++)*  
+*for( j=0 ; j<n ; j++ )*  
 scanf("%f",&m1[i][j]);  
 }  
 printf("Enter elements of Matrix B row wise\n\n");  
   
-**for(i=0 ; i<m ; i++)**                                                               
+**for( i=0 ; i<m ; i++ )**                                                               
 {  
-*for(j=0 ; j<n ; j++)* &nbsp; &nbsp;//Matrices to be added must have the same order     
+*for( j=0 ; j<n ; j++ )* &nbsp; &nbsp;//Matrices to be added must have the same order     
 scanf("%f",&m2[i][j]);  
 }  
 printf("The resultant matrix:\n");                                            
   
-for(i=0 ; i<m ; i++)  
+for( i=0 ; i<m ; i++ )  
 {  
 printf("\n");  
-for(j=0;j<n;j++)                                                              
+for( j=0 ; j<n ; j++ )                                                              
 {  
 m3[i][j]=m1[i][j]+m2[i][j];  
 printf("%.1f ",m3[i][j]);  
@@ -454,27 +454,27 @@ printf("\n\n");
 void main()  
 {  
 int a[10][10],b[10][10];  
-int n,m,i,j;  
+int n, m, i, j;  
 printf("Enter size of Matrix A as m,n:  ");  
 scanf("%d%d",&m,&n);  
 printf("\nEnter  elements of Matrix A row wise\n");  
   
-for(i=0 ; i<m ; i++)  
+for( i=0 ; i<m ; i++ )   
 {  
-for(j=0 ; j<n ; j++)  
+for( j=0 ; j<n ; j++ )   
 scanf("%d",&a[i][j]);  
 }  
   
-for(i=0 ; i<m ; i++)  
+for( i=0 ; i<m ; i++ )  
 {  
-for(j=0 ; j<n ; j++)  
+for( j=0 ; j<n ; j++ )   
 **b[j][i]=a[i][j];** &nbsp; &nbsp;//Switching rows & columns of 'a' matrix to columns & rows of 'b' matrix respectively  
 }   
 printf("\nTranspose is\n\n");  
-for(i=0 ; i<n ; i++)  
+for( i=0 ; i<n ; i++ )  
 {  
 printf("\n");  
-for(j=0 ; j<m ; j++)  
+for( j=0 ; j<m ; j++ )  
 printf("%d ",b[i][j]);  
 }  
 printf("\n\n");  
