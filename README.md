@@ -47,7 +47,7 @@ printf("Average is %.2f.\n",avg);
 return 0;  
 }  
   
-#### 3. WAP to Print weekdays using switch statement.  
+#### 3. WAP to Print weekdays, using if-else.  
   
 #include<stdio.h>  
 int main()              {  
