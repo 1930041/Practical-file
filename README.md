@@ -151,23 +151,7 @@ printf("  2 x %d =  %d  2 x  %d =  %d\n", n, product, n+10, product+20);
   
 return 0;  
 } 
-  
-### OUTPUT  
-        Table of 2  
-        ==========
-          
-  
- &nbsp;2 x &nbsp;1 = &nbsp; &nbsp;2 &nbsp;2 x &nbsp;11 = &nbsp;22  
- &nbsp;2 x &nbsp;2 = &nbsp; &nbsp;4 &nbsp;2 x &nbsp;12 = &nbsp;24  
- &nbsp;2 x &nbsp;3 = &nbsp; &nbsp;6 &nbsp;2 x &nbsp;13 = &nbsp;26  
- &nbsp;2 x &nbsp;4 = &nbsp; &nbsp;8 &nbsp;2 x &nbsp;14 = &nbsp;28  
- &nbsp;2 x &nbsp;5 = &nbsp; 10 &nbsp;2 x &nbsp;15 = &nbsp;30  
- &nbsp;2 x &nbsp;6 = &nbsp; 12 &nbsp;2 x &nbsp;16 = &nbsp;32  
- &nbsp;2 x &nbsp;7 = &nbsp; 14 &nbsp;2 x &nbsp;17 = &nbsp;34  
- &nbsp;2 x &nbsp;8 = &nbsp; 16 &nbsp;2 x &nbsp;18 = &nbsp;36  
- &nbsp;2 x &nbsp;9 = &nbsp; 18 &nbsp;2 x &nbsp;19 = &nbsp;38  
- &nbsp;2 x &nbsp;10 = &nbsp; 20 &nbsp;2 x &nbsp;20 = &nbsp;40  
-  
+    
 ### CODE  
   
 #### 6. WAP to check whether the number is an Armstrong number or not.  
@@ -215,26 +199,6 @@ puts("| ___ | ___ | ___ | ___ |\n");
 puts("|\t0\t  |  *  |\n");  
 puts("| _______________ | ___ |\n");  
 }  
-  
-### OUTPUT  
-  _____________________    
-| _____________________ |  
-  
-|  1  |  2  |  3  |     |  
-  
-| ___ | ___ | ___ |     |  
-  
-|  4  |  5  |  6  |  +  |  
-  
-| ___ | ___ | ___ | ___ |  
-  
-|  7  |  8  |  9  |  -  |  
-  
-| ___ | ___ | ___ | ___ |  
-  
-|       0         |  *  |  
-  
-| _______________ | ___ |  
   
 ### CODE  
   
