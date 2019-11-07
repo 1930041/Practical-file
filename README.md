@@ -10,7 +10,7 @@
   
 ## CODE
 
-#### `1. WAP to Add two numbers.`   
+#### 1. WAP to Add two numbers.    
   
 #include<stdio.h>    
 int main()  
