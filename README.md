@@ -154,18 +154,19 @@ return 0;
   
 ### OUTPUT  
         Table of 2  
-        ==========  
+        ==========
+          
   
-  2 x  1 =   2 &nbsp;2 x  11 =  22  
-  2 x  2 =   4 &nbsp;2 x  12 =  24  
-  2 x  3 =   6 &nbsp;2 x  13 =  26  
-  2 x  4 =   8 &nbsp;2 x  14 =  28  
-  2 x  5 =  10 &nbsp;2 x  15 =  30  
-  2 x  6 =  12 &nbsp;2 x  16 =  32  
-  2 x  7 =  14 &nbsp;2 x  17 =  34  
-  2 x  8 =  16 &nbsp;2 x  18 =  36  
-  2 x  9 =  18 &nbsp;2 x  19 =  38  
-  2 x 10 =  20 &nbsp;2 x  20 =  40  
+ &nbsp;2 x &nbsp;1 = &nbsp; 2 &nbsp;2 x &nbsp;11 = &nbsp;22  
+ &nbsp;2 x &nbsp;2 = &nbsp; 4 &nbsp;2 x &nbsp;12 = &nbsp;24  
+ &nbsp;2 x &nbsp;3 = &nbsp; 6 &nbsp;2 x &nbsp;13 = &nbsp;26  
+ &nbsp;2 x &nbsp;4 = &nbsp; 8 &nbsp;2 x &nbsp;14 = &nbsp;28  
+ &nbsp;2 x &nbsp;5 = &nbsp;10 &nbsp;2 x &nbsp;15 = &nbsp;30  
+ &nbsp;2 x &nbsp;6 = &nbsp;12 &nbsp;2 x &nbsp;16 = &nbsp;32  
+ &nbsp;2 x &nbsp;7 = &nbsp;14 &nbsp;2 x &nbsp;17 = &nbsp;34  
+ &nbsp;2 x &nbsp;8 = &nbsp;16 &nbsp;2 x &nbsp;18 = &nbsp;36  
+ &nbsp;2 x &nbsp;9 = &nbsp;18 &nbsp;2 x &nbsp;19 = &nbsp;38  
+ &nbsp;2 x &nbsp;10 = &nbsp;20 &nbsp;2 x &nbsp;20 = &nbsp;40  
   
 ### CODE  
   
