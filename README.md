@@ -8,7 +8,7 @@
 # **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA**  
   
   
-## CODE
+### CODE
 
 #### 1. WAP to Add two numbers.    
   
@@ -26,6 +26,12 @@ printf("Sum of 1st & 2nd number is = %.2f\n",sum);
 return 0;  
 }  
 
+### OUTPUT  
+Enter 1st,2nd number:  5 6  
+Sum of 1st & 2nd number is = 11.00  
+  
+### CODE  
+  
 #### 2. WAP to find the Average of 'n' numbers.  
   
 #include<stdio.h>  
@@ -45,7 +51,15 @@ avg=sum/n;
 printf("Average is %.2f.\n",avg);  
   
 return 0;  
-}  
+} 
+
+### OUTPUT  
+  
+Enter number of elements:  5  
+Enter 5 elements:  4 5 6 7 8  
+Average is 6.00.  
+  
+### CODE  
   
 #### 3. WAP to Print weekdays using switch statement.  
   
@@ -86,7 +100,13 @@ printf("Invalid Input\n");
 return 0;      
   
 }  
-
+  
+### OUTPUT  
+Enter weekday in number:  2  
+Tuesday  
+  
+### CODE  
+  
 #### 4. WAP to find whether a number is Even or Odd.  
   
 #include<stdio.h>  
@@ -103,7 +123,13 @@ printf("Number is odd.\n");
   
 return 0;  
   
-}  
+} 
+  
+### OUTPUT  
+Enter a number:  77  
+Number is odd.  
+  
+### CODE  
   
 #### 5. WAP to Print the table of 2 using for loop.  
   
@@ -124,7 +150,24 @@ else
 printf("  2 x %d =  %d  2 x  %d =  %d\n", n, product, n+10, product+20);  
   
 return 0;  
-}  
+} 
+  
+### OUTPUT  
+        Table of 2  
+        ==========  
+  
+  2 x  1 =   2  2 x  11 =  22  
+  2 x  2 =   4  2 x  12 =  24  
+  2 x  3 =   6  2 x  13 =  26  
+  2 x  4 =   8  2 x  14 =  28  
+  2 x  5 =  10  2 x  15 =  30  
+  2 x  6 =  12  2 x  16 =  32  
+  2 x  7 =  14  2 x  17 =  34  
+  2 x  8 =  16  2 x  18 =  36  
+  2 x  9 =  18  2 x  19 =  38  
+  2 x 10 =  20  2 x  20 =  40  
+  
+### CODE  
   
 #### 6. WAP to check whether the number is an Armstrong number or not.  
   
@@ -147,7 +190,13 @@ else
 printf("The entered number is not an Armstrong number.\n");  
   
 return 0;  
-}  
+} 
+  
+### OUTPUT  
+Enter any positive integer:  153  
+The entered number is an Armstrong number.  
+   
+### CODE  
   
 #### 7. WAP to Print calculator using puts.  
   
@@ -165,6 +214,28 @@ puts("| ___ | ___ | ___ | ___ |\n");
 puts("|\t0\t  |  *  |\n");  
 puts("| _______________ | ___ |\n");  
 }  
+  
+### OUTPUT  
+  _____________________    
+| _____________________ |  
+  
+|  1  |  2  |  3  |     |  
+  
+| ___ | ___ | ___ |     |  
+  
+|  4  |  5  |  6  |  +  |  
+  
+| ___ | ___ | ___ | ___ |  
+  
+|  7  |  8  |  9  |  -  |  
+  
+| ___ | ___ | ___ | ___ |  
+  
+|       0         |  *  |  
+  
+| _______________ | ___ |  
+  
+### CODE  
   
 #### 8. WAP for Bubble Sort.  
   
@@ -200,6 +271,17 @@ printf("\n");
   
 return 0;  
 }  
+  
+### OUTPUT  
+Enter size of array:  5  
+  
+Enter 5 elements of array.  
+5 4 2 1 8  
+  
+Array elements after sorting..  
+1 2 4 5 8  
+  
+### CODE  
   
 #### 9. WAP for Binary Search.  
   
@@ -240,6 +322,14 @@ printf("%d not found in the entered array!\n",n); &nbsp; &nbsp;//Test expression
 return 0;                                                                     
 }  
   
+### OUTPUT  
+Enter the length of array:  4  
+Enter 4 elements in ascending order:  2 6 7 9  
+Enter value to find:  7  
+7 found at position #3.  
+  
+### CODE  
+  
 #### 10. WAP to find the Factorial of a number.  
   
 #include<stdio.h>  
@@ -256,6 +346,13 @@ printf("\n%d! = %d\n",n,fac);
   
 return 0;  
 }  
+  
+### OUTPUT  
+Enter number which you want to get factorial of:  6  
+  
+6! = 720  
+  
+### CODE  
   
 #### 11. WAP for Fizz-Buzz.  
   
@@ -281,6 +378,40 @@ return 0;
   
 }  
   
+### OUTPUT  
+1  
+2  
+Fizz  
+4  
+Buzz  
+Fizz  
+7  
+8  
+Fizz  
+Buzz  
+11  
+Fizz  
+13  
+14  
+FizzBuzz  
+16  
+17  
+Fizz  
+19  
+Buzz  
+Fizz  
+22  
+23  
+Fizz  
+Buzz  
+26  
+Fizz  
+28  
+29  
+FizzBuzz  
+  
+### CODE  
+  
 #### 12. WAP to find the Sum of first 100 numbers.  
   
 #include<stdio.h>    
@@ -297,6 +428,11 @@ printf("Sum of first 100 +ve integers = %d\n",sum);
   
 return 0;  
 }  
+  
+### OUTPUT  
+Sum of first 100 +ve integers = 5050  
+  
+### CODE  
   
 #### 13. WAP to find the Greater of two numbers.  
   
@@ -316,6 +452,12 @@ printf("a is equal to b.\n");
   
 return 0;  
 }  
+  
+### OUTPUT  
+Enter any 2 no.s:  5 4  
+a is greater.  
+  
+### CODE  
   
 #### 14. WAP to find the Greatest of three numbers.  
   
@@ -342,6 +484,12 @@ printf("The largest of the 3 numbers entered is %d.\n",**largestof3(a,b,c)**); &
 return 0;  
 }  
   
+### OUTPUT  
+Enter 3 numbers:  33 34 35  
+The largest of the 3 numbers entered is 35.  
+  
+### CODE  
+  
 #### 15. WAP to find G.C.D. of two numbers.  
   
 #include<stdio.h>  
@@ -361,6 +509,12 @@ printf("GCD of %d and %d is %d.\n",n1,n2,gcd);
 return 0;  
 }  
   
+### OUTPUT  
+Enter 2 integers:  20 125  
+GCD of 20 and 125 is 5.  
+  
+### CODE  
+  
 #### 16. WAP to find whether the year is Leap year or not.  
   
 #include<stdio.h>    
@@ -378,6 +532,12 @@ printf("Not a Leap Year\n");
   
 return 0;  
 }  
+  
+### OUTPUT  
+Enter an year:  2016  
+Leap Year  
+  
+### CODE  
   
 #### 17. WAP for Linear Search.  
   
@@ -408,6 +568,14 @@ printf("Search is unsuccessful.\n"); &nbsp; &nbsp;//Test expression turned false
 return 0;  
   
 }  
+  
+### OUTPUT  
+Enter the length of array:  5  
+Enter 5 elements:  1 3 4 2 0   
+Enter the number you wish to find:  4  
+Search is successful. Element present at #3  
+  
+### CODE
   
 #### 18. WAP for Matrix Addition.  
   
@@ -448,6 +616,23 @@ printf("\n\n");
   
 }  
   
+### OUTPUT  
+Enter size of Matrix A & B as m,n:  2 2  
+Enter elements of Matrix A row wise  
+  
+5.5 5.6   
+5 6.7  
+Enter elements of Matrix B row wise  
+  
+3 2   
+1 0  
+The resultant matrix:  
+  
+8.5 7.6   
+6.0 6.7   
+  
+### CODE
+  
 #### 19. WAP to find Transpose of a matrix.  
   
 #include<stdio.h>  
@@ -480,6 +665,21 @@ printf("%d ",b[i][j]);
 printf("\n\n");  
 }  
   
+### OUTPUT  
+Enter size of Matrix A as m,n:  2 2  
+  
+Enter  elements of Matrix A row wise  
+4 5    
+6 7  
+  
+Transpose is  
+  
+  
+4 6   
+5 7  
+  
+### CODE  
+  
 #### 20. WAP to find the Sum of digits of a number.  
   
 #include<stdio.h>                                                             
@@ -503,6 +703,13 @@ printf("\n Sum of digits of %d = %d \n",n,sum);
   
 return 0;  
 }  
+  
+### OUTPUT  
+Enter any +ve integer:  334  
+  
+ Sum of digits of 334 = 10  
+   
+### CODE  
   
 #### 21. WAP to check whether the number is Palindrome or not.  
   
@@ -528,6 +735,13 @@ printf("\n%d is not a palindrome number.\n",n);
   
 return 0;  
 }  
+  
+### OUTPUT  
+Enter any +ve integer:  313  
+  
+313 is a palindrome number.  
+  
+### CODE  
   
 #### 22. WAP to swap 2 numbers using Call by Value method.  
   
@@ -562,6 +776,26 @@ b = temp;
 printf("\n Value of a = %d, value of b = %d after swap\n",a,b);  
 *}*  
   
+### OUTPUT  
+ Enter value for x:  10   
+  
+ Enter value for y:  12  
+  
+ Before calling swap function  
+  
+ Value of x = 10, value of y = 12  
+   
+ Inside the function  
+  
+ Value of a = 10, value of b = 12 before swap  
+  
+ Value of a = 12, value of b = 10 after swap  
+  
+ After returning from swap function  
+ Value of x = 10, value of y = 12  
+   
+### CODE  
+  
 #### 23. WAP to swap 2 numbers using Call by Reference method.  
   
 #include<stdio.h>  
@@ -593,6 +827,27 @@ temp = *a;
 printf("\nValue of *a=%d, value of *b=%d after swap\n",*a,*b);  
 *}*  
   
+### OUTPUT  
+Enter value for x:  10  
+  
+Enter value for y:  12   
+  
+Before calling swap function  
+  
+Value of x=10, value of y=12  
+  
+Inside the function  
+  
+Value of *a=10, value of *b=12 before swap  
+  
+Value of *a=12, value of *b=10 after swap  
+  
+After returning from swap function  
+  
+Value of x=12, value of y=10  
+
+### CODE  
+  
 #### 24. WAP to enter the details of Employees using structures.  
   
 #include<stdio.h>  
@@ -622,6 +877,19 @@ printf("Employee's code:  %d\nEmployee's name:  %s\nEmployee's department:  %s\n
   
 }  
   
+### OUTPUT  
+Enter Employee's code:  21  
+Enter Employee's name:  Tawan  
+Enter Employee's department:  CSE  
+Enter Employee's salary:  80000  
+Particulars of Employee are  
+Employee's code:  21  
+Employee's name:  Tawan  
+Employee's department:  CSE  
+Employee's salary:  80000.00  
+  
+### CODE  
+  
 #### 25. WAP to find the Product of fractions using structures.  
   
 #include<stdio.h>  
@@ -647,4 +915,17 @@ res.denom=f1.denom * f2.denom;
 printf("The resultant product fraction is %.2f/%.2f.\n",res.num,res.denom);  
   
 return 0;  
-}  
+} 
+  
+### OUTPUT
+Enter Employee's code:  21  
+Enter Employee's name:  Tawan  
+Enter Employee's department code:  101  
+Enter Employee's salary:  80000  
+  
+Particulars of Employee are  
+Employee's code:  21  
+Employee's name:  Tawan  
+Employee's department code:  101  
+Employee's salary:  80000.00  
+
