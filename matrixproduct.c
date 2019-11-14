@@ -21,12 +21,12 @@ for(j=0;j<n;j++)
 scanf("%d",&one[i][j]);  
   
 printf("Enter elements of second matrix\n\n");  
-for(i=0;i<m;i++)  
-for(j=0;j<n;j++)                                                               
+for(i=0;i<p;i++)  
+for(j=0;j<q;j++)                                                               
 scanf("%d",&two[i][j]);  
   
 for(i=0;i<m;i++){  
-for(j=0;j<n;j++){  
+for(j=0;j<q;j++){  
 for(k=0;k<p;k++){                                                             
 sum+=one[i][k]*two[k][j];    //Calculating 1 resultant element
 }  
@@ -39,7 +39,7 @@ printf("Product of the matrices\n\n");
 for(i=0;i<m;i++)  
 {                                                                             
 printf("\n");  
-for(j=0;j<n;j++)  
+for(j=0;j<q;j++)  
 printf("%d ",product[i][j]);  
 }
 
