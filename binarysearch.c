@@ -14,7 +14,7 @@ scanf("%d",&a[i]);
 printf("Enter value to find:  ");
 scanf("%d",&n);
 
-last=n-1;     //To initialise to last index position
+last=m-1;     //To initialise to last index position
 mid=(first+last)/2;
 while(first<=last)
 {
