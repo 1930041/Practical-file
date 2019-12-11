@@ -883,14 +883,7 @@ return 0;
 } 
   
 ### OUTPUT
-Enter Employee's code:  21  
-Enter Employee's name:  Tawan  
-Enter Employee's department code:  101  
-Enter Employee's salary:  80000  
-  
-Particulars of Employee are  
-Employee's code:  21  
-Employee's name:  Tawan  
-Employee's department code:  101  
-Employee's salary:  80000.00  
+Enter numerator,denominator of 1st fraction:  2/5  
+Enter numerator, denominator of 2nd fraction:  3/7                                                Enter numerator,denominator of 2nd fraction:  3/7
+The resultant product fraction is 6.00/35.00.
 
