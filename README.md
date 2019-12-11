@@ -884,6 +884,6 @@ return 0;
   
 ### OUTPUT
 Enter numerator,denominator of 1st fraction:  2/5  
-Enter numerator, denominator of 2nd fraction:  3/7                                                Enter numerator,denominator of 2nd fraction:  3/7
+Enter numerator, denominator of 2nd fraction:  3/7  
 The resultant product fraction is 6.00/35.00.
 
